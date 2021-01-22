@@ -1,1 +1,1 @@
-web: java -jar target/qnucnttdiemrenluyen-1.0.0.jar
+web: java -jar target/depDiemRenLuyen-1.0.0.jar
