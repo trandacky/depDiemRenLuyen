@@ -105,6 +105,16 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>com.example.demo.DiemRenLuyenApplication</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+
 				</configuration>
 			</plugin>
 		</plugins>
