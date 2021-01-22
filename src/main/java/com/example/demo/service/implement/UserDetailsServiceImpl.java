@@ -23,7 +23,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		TaiKhoan nguoiDung = new TaiKhoan();
-		if (taiKhoanService.getByID(username).get().getMaSinhVien()!="")
+		if (taiKhoanService.getByID(username).get().getMaSinhVien()=="")
 			throw new UsernameNotFoundException("User " + username + " was not found in the database");
 
 		try {
